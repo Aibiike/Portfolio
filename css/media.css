@@ -1,0 +1,95 @@
+@media (max-width: 1200px) {
+.hero-person{
+    left: 121px;
+    width: 395px;
+}
+}
+@media (max-width: 992px) {
+    .work{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .burger{
+        display: flex;
+    }
+    .hero-person{
+        left: 40px;
+        width: 355px;
+    }
+    .content{
+        margin-top: 285px;
+    }
+    .navbar{
+        display: none;
+    }
+    .navbar.show{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        background: black;
+        width: 50%;
+        height: 100%;
+    }
+    .navbar__item{
+        padding-bottom: 30px;
+    }
+    .about__content{
+        padding: 35px 30px 0 30px;
+        font-size: 26px;
+    }
+  .footer{
+      height: 50vh;
+  }
+}
+@media (max-width: 768px) {
+    .hero{
+        min-height: 90vh;
+    }
+    .hero-person{
+        left: 5px;
+        width: 313px;
+    }
+    .content{
+        margin-top: 221px;
+    }
+    .content__title{
+        font-size: 54px;
+    }
+    .about{
+        min-height: 88vh;
+    }
+    .about__content{
+        padding: 30px 20px 0 20px;
+        font-size: 22px;
+    }
+    .work{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 540px) {
+
+    .hero{
+        min-height: 80px;
+        padding-bottom: 30px;
+    }
+    .hero-person{
+      display: none;
+    }
+    .about{
+        min-height: 80vh;
+    }
+    .about__content{
+        padding: 18px 20px 0 20px;
+        font-size: 22px;
+    }
+    .skills{
+        min-height: 95vh;
+    }
+
+.footer{
+    height: 55vh;
+}
+}
